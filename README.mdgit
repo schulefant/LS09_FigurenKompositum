@@ -1,0 +1,1 @@
+"# LS09_FigurenKompositum"  initgit add README.mdgit commit -m "first commit"git branch -M maingit remote add origin git@github.com:schulefant/LS09_FigurenKompositum.gitgit push -u origin main
