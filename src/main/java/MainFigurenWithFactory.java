@@ -54,9 +54,9 @@ public class MainFigurenWithFactory {
 	}
 
 	private static void zweiD() {
-		writeAll2DAblauf();
+//		writeAll2DAblauf();
 		read2DAblauf();
-//		creating2DAblauf();
+		creating2DAblauf();
 		ausgabe(formen2D);
 	}
 
