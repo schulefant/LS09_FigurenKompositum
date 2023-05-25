@@ -26,17 +26,18 @@ public enum TwoDFig {
 			l.add("Anzahl Seiten");
 			break;
 		case STAR:
-			l.add("Seitenlänge eines Zackens");
+			l.add("Breite eines Zackens");
 			l.add("Anzahl Zacken");
+			l.add("Seitenlänge eines Zackens");
 			break;
 		case STICKFIGURE:
 			l.add("Radius des Kopfes");
+			l.add("Körperseite");
+			l.add("Körperbreite");
 			l.add("Armlänge");
 			l.add("Armbreite");
 			l.add("Beinlänge");
 			l.add("Beinbreite");
-			l.add("Körperseite");
-			l.add("Körperbreite");
 			break;
 		}
 		return l;

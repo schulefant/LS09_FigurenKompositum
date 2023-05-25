@@ -31,7 +31,16 @@ public abstract class ZusammengesetzteFigur extends Figur2D {
 	public String toCSVString() {
 		String result = "";
 		for(Figur2D f: teile)
-			result += f.toCSVString();
+			result += csvMinusFigType( f) ;
 		return result;
 	}
+	protected static String csvMinusFigType(Figur2D f) {
+		String str = "";
+		String[] strArr = f.toCSVString().split(";");
+		for(int i = 1; i <strArr.length; i++) {
+			str+= strArr[i] + ";";
+		}
+		return str;
+	}
+
 }

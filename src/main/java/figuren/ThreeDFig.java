@@ -17,9 +17,12 @@ public enum ThreeDFig {
 			l.add("Höhe");
 			break;
 		case PRISM:
+			l.add("Höhe");
+			break;
 		case REGULARPRISM:
 		case REGULARPYRAMID:
 			l.add("Höhe");
+			l.addAll(TwoDFig.POLYGON.dimensionNames());
 			break;
 		case CONE:
 			l.add("Höhe");
